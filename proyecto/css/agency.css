@@ -7,12 +7,13 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 p {
   line-height: 1.75;
 }
 
 a {
-  color: #000;
+  color: #41ad48;
 }
 
 a:hover {
@@ -69,13 +70,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #16a11f;
-  border-color: #16a11f;
+  background-color: #fed136;
+  border-color: #fed136;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #16a11f !important;
-  border-color: #16a11f !important;
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
   color: white;
 }
 
@@ -84,12 +85,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #16a11f;
+  background: #fed136;
   text-shadow: none;
 }
 
 ::selection {
-  background: #16a11f;
+  background: #fed136;
   text-shadow: none;
 }
 
@@ -135,7 +136,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #16a11f;
+  color: #fed136;
 }
 
 @media (min-width: 992px) {
@@ -170,7 +171,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: #000;
+  color: white;
   background-image: url("img/header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -181,7 +182,7 @@ header.masthead {
   background-size: cover;
 }
 
-
+#letra
 
 header.masthead .intro-text {
   padding-top: 120px;
@@ -251,7 +252,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background:#16a11f;
+  background: rgba(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -455,7 +456,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #16a11f;
+  background-color: #fed136;
 }
 
 .timeline > li .timeline-image h4 {
@@ -598,7 +599,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #000;
+  background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -626,33 +627,33 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #117d18;
+  border-color: #fed136;
   box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #117d18;
+  color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #117d18;
+  color: #ced4da;
   /* Firefox 18- */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #117d18;
+  color: #ced4da;
   /* Firefox 19+ */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #117d18;
+  color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -692,9 +693,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #000;
+  background-color: #212529;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #102f12;
+  background-color: #fed136;
 }
